@@ -5,6 +5,7 @@ export default function Register() {
   return (
     <Form
       action={signup}
+      
       className="max-w-lg mx-auto p-6 bg-white rounded-lg shadow-md space-y-4 mt-8">
       <h2 className="text-2xl font-bold text-center text-gray-800">Register</h2>
       <div>

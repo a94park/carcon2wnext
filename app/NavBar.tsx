@@ -14,7 +14,7 @@ const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "Team", href: "#", current: false },
   { name: "Register", href: "/register", current: false },
-  { name: "Login", href: "#", current: false },
+  { name: "Login", href: "/login", current: false },
 ];
 
 function classNames(...classes) {
@@ -83,7 +83,7 @@ export default function NavBar() {
                     alt="profile placeholder"
                     width={10}
                     height={10}
-                    priority
+                    // priority
                   />
                 </MenuButton>
               </div>
